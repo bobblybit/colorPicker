@@ -1,0 +1,39 @@
+/*varirable*/
+:root{
+    --theme-color:darkslategrey;
+}
+
+*{
+    margin: 0;
+}
+
+nav ul{
+    
+    padding:0px;
+}
+
+#header{
+    padding: 10px;
+    background:#ddd;
+    text-align: center;
+    background-color:var(--theme-color);
+    color: #fff;
+}
+
+#swathces{
+     display:flex;
+     justify-content:space-around;
+     padding: 5px;
+     color:var(--theme-color);
+     background-color:gainsboro;
+}
+.swatches-span{
+    width: 5%;
+    display: block;
+    height: 10px;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+.swatches-span:hover{
+    cursor: pointer;
+}
