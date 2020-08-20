@@ -1,8 +1,9 @@
-/*varirable*/
+/*---varirable-----*/
 :root{
-    --theme-color:darkslategrey;
+    --theme-color:skyblue;
 }
 
+/*---main styles-----*/
 *{
     margin: 0;
 }
@@ -14,26 +15,44 @@ nav ul{
 
 #header{
     padding: 10px;
-    background:#ddd;
     text-align: center;
-    background-color:var(--theme-color);
-    color: #fff;
+    color:var(--theme-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#barnner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+   background-color:var(--theme-color);
+   height: 300px;
+}
 #swathces{
-     display:flex;
-     justify-content:space-around;
-     padding: 5px;
-     color:var(--theme-color);
-     background-color:gainsboro;
+     background-color:#eee;
+     display: flex;
 }
 .swatches-span{
-    width: 5%;
+    width: 5px;
     display: block;
-    height: 10px;
+    height: 5px;
     border: 1px solid #fff;
     padding: 10px;
 }
 .swatches-span:hover{
     cursor: pointer;
+}
+article h2{
+    color: var(--theme-color);
+    text-align:center;
+    margin-bottom: 10px;
+}
+article{
+    width: 50%;
+    margin: 0 auto;
+    margin-top:-50px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid var(--theme-color);
+    box-shadow: 0.2px 0px 1px 0px var(--theme-color);
 }
