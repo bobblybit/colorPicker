@@ -1,6 +1,7 @@
 /*---varirable-----*/
 :root{
     --theme-color:skyblue;
+    transition: background-color 2s linear;
 }
 
 /*---main styles-----*/
@@ -25,11 +26,10 @@ nav ul{
     justify-content: center;
     align-items: center;
     color:#fff;
-   background-color:var(--theme-color);
+   background:var(--theme-color);
    height: 300px;
 }
 #swathces{
-     background-color:#eee;
      display: flex;
 }
 .swatches-span{
